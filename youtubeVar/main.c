@@ -22,6 +22,11 @@ int main(int argc, const char * argv[])
         printf("Pizza ist nicht 10");
         
     }
+    
+    for (int i = 0; i < 200; i++)
+    {
+        printf("Zeile %d", i);
+    }
     //printf("Hello, World!\n");
     return 0;
 }
