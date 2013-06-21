@@ -11,8 +11,18 @@
 int main(int argc, const char * argv[])
 {
 
-    // insert code here...
-    printf("Hello, World!\n");
+    int pizza;
+    pizza = 1;
+    printf("Pizza ist %d", pizza);
+    if (pizza == 10) {
+        printf("Pizza ist %d", pizza);
+        
+    }
+    else {
+        printf("Pizza ist nicht 10");
+        
+    }
+    //printf("Hello, World!\n");
     return 0;
 }
 
